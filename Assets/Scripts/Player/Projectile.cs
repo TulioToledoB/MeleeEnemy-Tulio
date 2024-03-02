@@ -49,7 +49,6 @@ public class Projectile : MonoBehaviour
             other.GetComponent<EnemySoldier>().TakeDamage();
         }
     }
-
     public void SetDirection(float direction)
     {
         lifeTime = 0.0f;
@@ -64,7 +63,6 @@ public class Projectile : MonoBehaviour
             transform.localScale = new Vector3(-localScaleX, transform.localScale.y, transform.localScale.z);
         }
     }
-
     private void Deactivate()
     {
         gameObject.SetActive(false);

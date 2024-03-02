@@ -7,6 +7,7 @@ public class EnemySoldier : MonoBehaviour
     public int attackDamage = 1; 
     public Collider2D attackCollider; 
     public Animator enemyAnimator;
+
     public Transform playerTransform;
     public float detectionRange = 5f; 
     public float attackRange = 2f; 
